@@ -1,0 +1,32 @@
+.blur {
+    background-image: url("https://media.giphy.com/media/3o7aCX8uO9HAxqByDK/giphy.gif");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.container {
+    position: absolute;
+    z-index: 1;
+    background-color: rgb(0, 0, 0);  
+    margin-left: 100px;
+}
+
+.filters {
+    font-size: 13px;
+    flex-direction: column;
+    position: fixed;
+    margin-top: 110px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    padding: 10px;
+    width: 250px;
+    background-color: black;
+    color: antiquewhite;
+}

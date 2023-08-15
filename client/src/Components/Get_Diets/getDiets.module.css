@@ -1,0 +1,19 @@
+.boton {
+    margin-inline: 4px;
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: black;
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+.boton:hover {
+    transition: 350ms;
+    background-color: aliceblue;
+    color: black;
+    text-transform: capitalize;
+}

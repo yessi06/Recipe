@@ -1,0 +1,57 @@
+.blur {
+    background-image: url("https://media.giphy.com/media/9QUxCtwPStWbPOtgPB/giphy.gif");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    transform: rotate(0deg);
+}
+
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+
+.wh {
+    border-radius: 15px;
+    background-color: black;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+
+.welcome {
+    font-weight: bold;
+    font-size: 45px;
+    color: aliceblue;
+    margin: 12px;
+}
+
+
+.boton {
+    margin-top: 200px;
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: black;
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.boton:hover {
+    background-color: aliceblue;
+    color: black;
+}
